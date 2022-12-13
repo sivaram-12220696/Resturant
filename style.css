@@ -1,0 +1,183 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --main-color: #ff702a;
+    --text-color: #fff;
+    --bg-color: #1e1c2a;
+    --big-font:5rem;
+    --h2-font:2.25rem;
+    --p-font:0.9rem;
+}
+::selection{
+    background:var(--main-color);
+    color: #fff;
+}
+body{
+    background-color: #1e1c2a;
+}
+.banner{
+    position: relative;
+    text-align: center;
+    color: #ff702a;
+}
+.bannerimg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+}
+.Resturan_name{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 300%;
+    font-weight: 500;
+}
+.Description{
+    font-size: 250%;
+    font-style: italic;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 70px;
+    z-index: 1000;
+    overflow: auto;
+    list-style-type: none;
+    background: var(--bg-color);
+
+}
+.navbar a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 2% 0%;
+    font-size: 150%;
+  
+}
+.navbar a:hover{
+    color: var(--main-color);
+    transition: .4s;
+}
+.container{
+    width:100%;
+    display:flex;  /* for display it's child div beside each other */
+    height: auto;
+  }
+  .first-div,.second-div{
+    width:50%;    /* for divide container into 2 equal divs  */ /*  for border around divs     */
+    height: auto;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 4%;
+  }
+  .Welcome{
+    color: var(--main-color);
+    font-weight: 400;
+    margin: 40px 10px;
+    font-size: 300%;
+  }
+  .DishoftheDay{
+    color: var(--main-color);
+    font-weight: 400; 
+    margin: 40px 10px;
+    font-size: 300%;
+  }
+  #div1h2{
+    font-weight: 300;
+    color: var(--main-color);
+    margin: 50px 20px;
+    font-size: 300%;
+  }
+  .items{
+    font-weight: 300;
+    font-size: 40px;
+    color: #fff;
+    margin: 35px 30px;
+    
+
+  }
+  #p1,#p2,#p3,#p4,#p5,#p6,#p7{
+    margin: 15px 20px;
+    cursor: pointer;
+  }
+  .items p:hover{
+    color: var(--main-color);
+    transition: .4s;
+
+  }
+  .h3{
+    font-size: 250%;
+    margin: 550px 0px;
+    padding: 60px 0px;
+    color: var(--main-color);
+    cursor: pointer;
+    text-align: left;
+  
+  }
+  .nameofdish{
+    font-size: 250%;
+    margin: 30px 30px;
+    color: var(--text-color);
+    
+  }
+  .biryani{
+    height: 300px;
+    width: 400px;
+  }
+.offer1,.offer2,.offer3{
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    font-weight: 300;
+    color: var(--text-color);
+    font-size: 160%;
+}
+.co1,.co2,.freedel{
+    width: 200px;
+    height: 200px;
+}
+.Feedback{
+    margin: 10px 0px;
+    color: #ff702a;
+    font-size: 250%;
+    font-weight: 400;
+}
+.fb{
+    color: #ff702a;
+}
+.fb:hover{
+    color: red;
+    transition: .4s;
+}
+.offer1:hover,.offer2:hover,.offer3:hover{
+    cursor: pointer;
+    color: var(--main-color);
+    transition: .4s;
+}
+.nameofdish:hover{
+    color: var(--main-color);
+    transition: .4s;
+    cursor: pointer;
+}
+.biryani:hover{
+    cursor: pointer;
+}
